@@ -1,0 +1,23 @@
+/* Fondo general */
+body {
+    background: #f6f6f6;
+}
+
+/* Tarjetas redondeadas */
+.card {
+    border-radius: 20px;
+}
+
+/* Botones redondeados */
+.btn {
+    border-radius: 12px;
+}
+
+/* Icono de volver atrás */
+.back-icon {
+    font-size: 28px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
