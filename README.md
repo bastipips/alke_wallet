@@ -36,3 +36,62 @@ Permite iniciar sesión, agregar contactos, enviar dinero, hacer depósitos y vi
 
 ## 🗂️ Estructura del proyecto
 
+alke-wallet/
+├── index.html
+├── login.html
+├── menu.html
+├── deposit.html
+├── sendmoney.html
+├── transactions.html
+├── contacts.html
+├── css/
+│ └── styles.css
+├── js/
+│ ├── auth.js
+│ ├── wallet.js
+│ └── ui.js
+└── README.mds
+
+
+---
+
+## 🔥 Funcionalidades
+### ✔ Login
+Validación simple utilizando LocalStorage.
+
+### ✔ Depósitos
+Permite ingresar un monto que aumenta el saldo total.
+
+### ✔ Envío de dinero
+Seleccionas un contacto y envías un monto (si tienes suficiente saldo).
+
+### ✔ Movimientos
+Lista de transacciones con:
+- Tipo (Depósito / Envío)
+- Monto
+- Destinatario
+
+### ✔ Contactos
+Permite agregar contactos y usarlos como destinatarios.
+
+---
+
+## 🧪 Cómo ejecutarlo
+Simplemente abre **index.html** en tu navegador.
+
+---
+
+## 🧩 Gestión de Git y GitHub
+
+Ramas utilizadas:
+- `main` → código estable
+- `feature/login`
+- `feature/depositos`
+- `feature/transacciones`
+
+Cada rama incluye su propia funcionalidad y fue integrada mediante Pull Requests.
+
+---
+
+## 👤 Autor
+Bastián Bachmann
